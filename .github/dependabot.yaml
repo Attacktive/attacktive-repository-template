@@ -5,11 +5,12 @@
 
 version: 2
 updates:
-  - package-ecosystem: "github-actions"
-    directory: "/"
+  - package-ecosystem: 'github-actions'
+    directory: '/'
     schedule:
-      interval: "daily"
+      interval: 'daily'
+      time: '00:00'
     labels:
-      - "CI/CD"
+      - 'CI/CD'
     commit-message:
-      prefix: ci
+      prefix: 'ci'
